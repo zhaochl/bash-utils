@@ -15,3 +15,8 @@ do
         let num++
         #num++ #error
 done
+
+while true
+do
+    echo 'hi,while ing'
+done
