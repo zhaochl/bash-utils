@@ -1,0 +1,4 @@
+#!/bin/bash
+sudo nohup redis-server -c /etc/redis.conf >>/data/logs/redis.log 2>&1 &
+echo 'redis start success.'
+ps -elf|grep redis
