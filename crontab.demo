@@ -1,0 +1,1 @@
+#*/2 *  *   *   * /usr/bin/python -u job.py>>/data/job.log_`date -u +\%Y\%m\%d`.log 2>&1 &
