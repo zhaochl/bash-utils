@@ -1,0 +1,12 @@
+digraph G {
+        main -> parse[label="text"];
+        parse->execute[label = "转化率3" ];
+        main -> init[label="依赖"];
+        main -> cleanup;
+        execute -> make_string;
+        execute -> printf
+            init -> make_string;
+        main -> printf;
+        execute -> compare;
+
+}
